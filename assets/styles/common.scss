@@ -3,9 +3,18 @@
 CUSTOM STYLES 
 * *********/
 
+/* Theme tweaks */
+::selection {
+    color: $gray-800;
+    background: $neon-green;
+}
 
+.navbar .nav-link.preRegister:focus {
+    outline: none !important;
+    box-shadow: 0 0 1px $neon-fuchsia, 0 0 10px $neon-fuchsia;
+}
 
-/* Typography */
+/* Typography tweaks */
 
 /* Thin out the headings */
 .slender-heading {
